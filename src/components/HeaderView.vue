@@ -30,10 +30,14 @@ import ProfileIcon from './icons/ProfileIcon.vue'
                 <div class="col-6 col-md-3">
                     <ul class="list-unstyled m-0 p-0 d-flex align-items-center justify-content-end">
                         <li>
-                            <a href="/login" class="d-inline-flex align-items-center justify-content-center py-2 px-3">Login</a>
+                            <RouterLink to="/login" class="d-inline-flex align-items-center justify-content-center py-2 px-3">
+                                Login
+                            </RouterLink>
                         </li>
                         <li>
-                            <a href="/register" class="d-inline-flex align-items-center justify-content-center py-2 px-3">Register</a>
+                            <RouterLink to="/register" class="d-inline-flex align-items-center justify-content-center py-2 px-3">
+                                Register
+                            </RouterLink>
                         </li>
                     </ul>
                 </div>
