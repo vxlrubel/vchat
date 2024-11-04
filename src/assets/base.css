@@ -5,7 +5,7 @@
   --vc-lc-light: hsl(198, 74%, 85%);
   --vc-lc-dark: hsl(198, 74%, 45%);
 }
-:root{
+:root {
   --color-background: var(--vc-c-light);
   --color-text: var(--vc-c-dark);
   --color-link: var(--vc-lc-dark);
@@ -29,6 +29,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a{
+a {
   color: var(--color-link);
 }

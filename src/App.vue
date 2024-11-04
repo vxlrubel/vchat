@@ -1,6 +1,6 @@
 <script setup>
-import HeaderView from './components/HeaderView.vue';
+import HeaderView from './components/HeaderView.vue'
 </script>
 <template>
-  <HeaderView/>
+  <HeaderView />
 </template>
