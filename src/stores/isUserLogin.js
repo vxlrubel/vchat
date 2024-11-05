@@ -1,9 +1,10 @@
 // stores/isUserLogin.js
 import axios from 'axios';
-const apiUrl = import.meta.env.VITE_API_URL
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export async function isUserLogin() {
   const token = localStorage.getItem('wpToken');
+
   if (!token) {
     return false;
   }
@@ -15,11 +16,7 @@ export async function isUserLogin() {
       }
     });
 
-    if (response.data.success) {
-      return true;
-    } else {
-      return false;
-    }
+    return response.data.success;
   } catch (error) {
     console.error('Error validating token:', error);
     return false;
