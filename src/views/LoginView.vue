@@ -17,7 +17,7 @@ async function handleLogin() {
 </script>
 
 <template>
-  <div class="container py-5">
+  <div class="clearfix py-5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-5">
